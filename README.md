@@ -1,47 +1,75 @@
-# Task Manager Application
+# Collaborative Task Management System
 
-## Introduction
-This project is a Task Manager Application similar to Trello. It allows users to create, update, and manage tasks within different columns. Users can move tasks between columns using drag-and-drop functionality. The application also includes user authentication with the option to log in via Google.
+The Collaborative Task Management System is a web-based application built using the MERN stack. This platform enables multiple users to collaborate on projects by creating, assigning, and managing tasks effectively. It provides features like user authentication, project management, task management, and advanced search and filtering.
 
-## Table of Contents
-1. [Demo](#demo)
-2. [Features](#features)
-3. [Technologies Used](#technologies-used)
-4. [Setup Instructions](#setup-instructions)
-5. [Usage](#usage)
-6. [API Endpoints](#api-endpoints)
-7.  [Security](#security)
-8. [Contact](#contact)
-
-## Demo
- Live Website : https://task-manager-application-seven.vercel.app/
-
+## Project Links
+- **Live Application:** [Task Management App](https://task-management-app-chi-swart.vercel.app/)
+- **GitHub Repository:** [Task Management App Repo](https://github.com/ayadav44237/Task-Management-App)
 
 ## Features
-- **User Authentication**: Sign up and log in, including Google login.
-- **Drag-and-Drop Functionality**: Easily move tasks between columns.
-- **CRUD Operations**: Create, read, update, and delete tasks.
-- **Responsive Design**: User interface adapts to different screen sizes.
-- **Routing**: Implemented throughout the application.
-- **Validation**: Server-side validation for task data and user data.
 
-### Bonus Features
-- Task sorting and searching capabilities.
+1. **User Registration and Authentication**
+   - User Registration: Users can register by providing their name, email, and password.
+   - Authentication: Implemented using JSON Web Tokens (JWT) to ensure secure access.
+   - Authorization: Only authenticated users can access the platform.
 
-## Technologies Used
-- **Front-End**: React, Material-UI (MUI), React-DnD
-- **Back-End**: Node.js, Express
-- **Database**: MongoDB
-- **Authentication**: Firebase for Google login, JWT for regular authentication
-- **Version Control**: Git
-- **Deployment**: Render, Vercel
+2. **Project Management**
+   - Create, edit, and delete projects.
+   - Projects include the following details:
+     - Title
+     - Description
+     - Creation Date
+     - Project Owner
 
-## Setup Instructions
-1. Clone the repository
-    ```javascript
-    git clone https://github.com/debabrata-pw08-429/Task-Manager-Application.git
-    cd Task-Manager-Application
-    ```
+3. **Task Management**
+   - Add, edit, delete, and assign tasks within projects.
+   - Tasks include the following details:
+     - Title
+     - Description
+     - Status (To-Do, In Progress, Completed)
+     - Deadline
+     - Assigned User
+   - Tasks are displayed grouped by status (To-Do, In Progress, Completed).
+
+4. **User Dashboard**
+   - Displays all projects and tasks assigned to the user.
+   - Provides a task summary (e.g., total tasks, completed tasks).
+
+5. **Search and Filters**
+   - Search functionality to find tasks by title or description.
+   - Filters to sort tasks by status, deadline, and assigned user.
+
+## Technical Stack
+
+### Frontend
+- **React.js**
+  - Functional components and hooks for dynamic UI.
+  - React Router for navigation.
+  - Form validation for user inputs.
+  - Responsive design for usability across devices.
+
+### Backend
+- **Node.js** and **Express.js**
+  - RESTful API for managing users, projects, and tasks.
+  - Secure API handling with JWT-based authentication.
+
+### Database
+- **MongoDB**
+  - Stores user information, project details, and tasks.
+  - Relationships maintained between users, projects, and tasks.
+
+## Installation and Setup
+
+### Prerequisites
+- Node.js (v14 or later)
+- MongoDB
+- npm or yarn
+
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ayadav44237/Task-Management-App
+
 2. Install dependencies
     ```javascript
     # For front-end
