@@ -27,7 +27,7 @@ The Collaborative Task Management System is a web-based application built using 
      - Title
      - Description
      - Status (To-Do, In Progress, Completed)
-     - Deadline
+     - Drag and Drop
      - Assigned User
    - Tasks are displayed grouped by status (To-Do, In Progress, Completed).
 
@@ -37,7 +37,7 @@ The Collaborative Task Management System is a web-based application built using 
 
 5. **Search and Filters**
    - Search functionality to find tasks by title or description.
-   - Filters to sort tasks by status, deadline, and assigned user.
+   - Filters to sort tasks by status, Most Recent, and Oldest First.
 
 ## Technical Stack
 
