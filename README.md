@@ -39,6 +39,35 @@ The Collaborative Task Management System is a web-based application built using 
    - Search functionality to find tasks by title or description.
    - Filters to sort tasks by status, Most Recent, and Oldest First.
 
+## Screenshots and Features Walkthrough
+
+Below are screenshots demonstrating the key functionalities of the Collaborative Task Management System:
+
+1. **Register Page**  
+   ![Register Page](https://drive.google.com/file/d/1lkV2csW8O_qStG2wrmxK0FrwdxC_yi1B/view?usp=sharing)  
+   The Register Page allows new users to create an account by providing their name, email, and password. User input is validated for security and accuracy.
+
+2. **Login Page**  
+   ![Login Page](https://drive.google.com/file/d/17asRKrByaoxEFVB_naRfBJag3_PylSGF/view?usp=sharing)  
+   The Login Page facilitates secure access to the platform. Users can log in with their registered credentials or via Google authentication.
+
+3. **Dashboard**  
+   ![Dashboard](https://drive.google.com/file/d/15QRhvAlgoVY86ObPSjanVfCGHc1eoB_x/view?usp=sharing)  
+   The Dashboard provides an overview of all projects and tasks assigned to the logged-in user. It includes task summaries, categorized by their status (To-Do, In Progress, Completed).
+
+4. **Add Task Functionality**  
+   ![Add Task](https://drive.google.com/file/d/1kJ6-stjefcb2sRMu3XSlAJJzQjJd4-YC/view?usp=sharing)  
+   Users can easily create new tasks within a project by providing a title, description, and status. Tasks can also be assigned to specific users.
+
+5. **Drag and Drop Functionality**  
+   ![Drag and Drop](https://drive.google.com/file/d/1KL6HPebcT9--BTmR9WnMOdb_yqRgPL95/view?usp=sharing)  
+   Tasks can be seamlessly moved between categories (To-Do, In Progress, Completed) using drag-and-drop functionality, simplifying task organization.
+
+6. **Sort Functionality**  
+   ![Sort Functionality](https://drive.google.com/file/d/1ijFCVA9hObnFhNfebJPQZi16QFxHGrpM/view?usp=sharing)  
+   Users can sort tasks based on their status, Based on most recent , oldest one making it easier to find and manage tasks efficiently.
+
+
 ## Technical Stack
 
 ### Frontend
